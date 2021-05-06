@@ -1,0 +1,35 @@
+{
+  "name": "scrapy-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "scrapy-node": "bin/scrapy-node.js"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "pub": "npm i && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrawlerHub/scrapy-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrawlerHub/scrapy-node/issues"
+  },
+  "homepage": "https://github.com/CrawlerHub/scrapy-node#readme"
+}
