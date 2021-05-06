@@ -6,7 +6,7 @@
     /* Basic Options */
     "rootDir": "src",
     "outDir": "dist",
-    "declarationDir": "types",
+    "declarationDir": "typings",
     "target": "ES2018",
     "module": "commonjs",
     "lib": ["ES2018"],
@@ -28,5 +28,6 @@
     /* Advanced Options */
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["./src/**/*.ts"]
 }

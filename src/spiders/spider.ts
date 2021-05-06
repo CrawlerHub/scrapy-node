@@ -10,11 +10,10 @@ export class Spider {
     }
   }
 
-  static fromCrawler() {
-  }
+  static fromCrawler() {}
 
   // 开始请求
-  * startRequests() {
+  *startRequests() {
     if (this.startUrls.length < 1) {
       return []
     }
